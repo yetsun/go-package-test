@@ -112,6 +112,14 @@ func main() {
 }
 ```
 
+Run the code:
+
+```go
+$ go run main.go
+123488
+Hello World
+```
+
 Note:
 > There's no such thing as "local package".
 https://stackoverflow.com/a/52026558/1216961
