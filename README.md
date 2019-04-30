@@ -115,6 +115,10 @@ func main() {
 Run the code:
 
 ```go
+$ go mod init github.com/yetsun/gopackagetest
+$ vim main.go
+$ mkdir foo
+$ vim foo/bar.go
 $ go run main.go
 123488
 Hello World
