@@ -1,4 +1,4 @@
-# gopackagetest
+# go-package-test
 
 This is for learning Go import, package, and module.
 
