@@ -70,8 +70,8 @@ from https://blog.golang.org/using-go-modules
 File structrure:
 
 ```bash
-$ tree gopackagetest/
-gopackagetest/
+$ tree go-package-test/
+go-package-test/
 ├── README.md
 ├── foo
 │   └── bar.go
@@ -83,7 +83,7 @@ go.mod content:
 
 ```bash
 $ cat go.mod
-module github.com/yetsun/gopackagetest
+module github.com/yetsun/go-package-test
 
 go 1.12
 ```
@@ -101,7 +101,7 @@ The package name is `foo`. The package declaration is `baz`. They are different.
 When using this package, in `main.go`, import path is the module name + package name:
 
 ```go
-import "github.com/yetsun/gopackagetest/foo"
+import "github.com/yetsun/go-package-test/foo"
 ```
 
 Package declaration `baz` is used to create a global variable in main.go:
@@ -115,7 +115,7 @@ func main() {
 Run the code:
 
 ```go
-$ go mod init github.com/yetsun/gopackagetest
+$ go mod init github.com/yetsun/go-package-test
 $ vim main.go
 $ mkdir foo
 $ vim foo/bar.go

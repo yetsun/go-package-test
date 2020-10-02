@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/yetsun/gopackagetest/foo"
+	"github.com/yetsun/go-package-test/foo"
 )
 
 func main() {
